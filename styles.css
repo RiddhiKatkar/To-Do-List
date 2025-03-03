@@ -181,6 +181,39 @@ select {
     color: darkblue;
 }
 
+<style>
+    
+    @media (max-width: 768px) {
+        .container {
+            width: 90%;
+            padding: 20px;
+        }
+
+       
+        input[type="text"], button {
+            width: 100%;
+            padding: 12px;
+        }
+    }
+
+    
+    @media (max-width: 480px) {
+        
+        .container {
+            width: 95%;
+        }
+
+        input[type="text"], button {
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        li {
+            font-size: 14px;
+            padding: 10px;
+        }
+    }
+</style>
 
 
 
